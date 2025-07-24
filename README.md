@@ -29,12 +29,6 @@ WISE_API_TOKEN=your_api_token
 WISE_PROFILE_ID=your_profile_id
 ```
 
-For production, use:
-
-```env
-WISE_API_URL=https://api.transferwise.com
-```
-
 ---
 
 ## Usage

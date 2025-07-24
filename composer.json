@@ -1,5 +1,5 @@
 {
-    "name": "ikbal/laravel-wise-payment",
+    "name": "devikbal/laravel-wise-payment",
     "description": "Laravel Wise (TransferWise) payment gateway integration package",
     "type": "library",
     "license": "MIT",
@@ -16,16 +16,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Ikbal\\WisePayment\\": "src/"
+            "Devikbal\\WisePayment\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Ikbal\\WisePayment\\WiseServiceProvider"
+                "Devikbal\\WisePayment\\WiseServiceProvider"
             ],
             "aliases": {
-                "Wise": "Ikbal\\WisePayment\\Facades\\Wise"
+                "Wise": "Devikbal\\WisePayment\\Facades\\Wise"
             }
         }
     },

@@ -18,7 +18,7 @@ A Laravel package for integrating **Wise (formerly TransferWise)** payment gatew
 Install via Composer:
 
 ```bash
-composer require ikbal/laravel-wise-payment
+composer require devikbal/laravel-wise-payment
 ```
 
 ### Add to your `.env` file:
